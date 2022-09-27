@@ -1,7 +1,7 @@
-import React from 'react';
+import styles from './DarkBlue.css';
 
 export default function DarkBlue() {
   return (
-    <div>DarkBlue</div>
+    <div className={styles.DarkBlue}>DarkBlue</div>
   );
 }

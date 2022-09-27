@@ -1,7 +1,7 @@
-import React from 'react';
+import styles from './BabyBlue.css';
 
 export default function BabyBlue() {
   return (
-    <div>BabyBlue</div>
+    <div className={styles.BabyBlue}>BabyBlue</div>
   );
 }
