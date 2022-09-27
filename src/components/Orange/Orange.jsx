@@ -1,7 +1,7 @@
-import React from 'react';
+import styles from './Orange.css';
 
 export default function Orange() {
   return (
-    <div>Orange</div>
+    <div className={styles.Orange}>Orange</div>
   );
 }
